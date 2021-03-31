@@ -1,0 +1,177 @@
+.vc-col-inner {
+    position: relative;
+  }
+  
+  .col:after, .clr:after, .group:after {
+      content: "";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility:hidden;
+  
+  }
+  
+  .vc_row-fluid::after {
+      content: "";
+      display: table;
+  
+  
+  }
+  
+   .col-bg-overlay-wrap {
+      opacity: 1;
+  
+   }
+  
+   .wpb_col .col-bg-overlay-wrap {
+      pointer-events: none;
+      position: absolute;
+      z-index: 0;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      content: ' ';
+      display: block;
+      opacity: 0;
+      transition: background-color 0.45s cubic-bezier(0.25, 1, 0.33, 1),opacity 0.45s cubic-bezier(0.25, 1, 0.33, 1);
+      -webkit-transition: background-color 0.45s cubic-bezier(0.25, 1, 0.33, 1),opacity 0.45s cubic-bezier(0.25, 1, 0.33, 1);
+  }
+  
+  .custom-tabs {
+      margin-top: 30px !important;
+      margin-bottom: 100px !important;
+      box-shadow: -3px 7px 21px 5px rgb(0 0 0 / 23%) !important;
+  }
+  
+  
+  element.style {
+  }
+  .wpb_text_column >.wpb_wrapper >*:last-child {
+      margin-bottom: 0;
+  }
+  .wpb_wrapper > div:last-child, .row .wpb_wrapper > img:last-child, .row .wpb_wrapper >.img-with-aniamtion-wrap:last-child img, .row .wpb_wrapper >.img-with-aniamtion-wrap:last-child .hover-wrap {
+      margin-bottom: 0;
+  }
+  .wpb_wrapper >div {
+      margin-bottom: 24px;
+  }
+  .custom-tabs {
+      margin-top: 30px !important;
+      margin-bottom: 100px !important;
+      box-shadow: -3px 7px 21px 5px rgb(0 0 0 / 23%) !important;
+  }
+  .custom-tabs {
+      font-size: .9rem;
+      background-color: grey;
+      padding: 0;
+      margin: 0;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      background-color: #ccc !important;
+  }
+
+
+element.style {
+}
+@media screen and (max-width: 979px){
+.booking-form .form-d i {
+    text-align: left;
+    left: 0.8rem;
+}
+}
+
+.booking-form .form-d i {
+    position: absolute;
+    left: 1.5rem;
+    top: 0.6rem;
+    text-align: center;
+}
+  
+  .custom-tabs {
+      text-align: left;
+  }
+  
+  ul {
+      display: block;
+      list-style-type: disc;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+  }
+  
+  @media screen and (max-width: 480px){
+  ul.booking-links {
+      margin: 1rem 0 0 0;
+      padding: 0;
+      background: transparent;
+      border: none;
+  }
+  }
+  
+  ul.booking-links {
+      padding: 0;
+      margin: 1rem 0 0 0.3rem;
+  }
+  
+  ul {
+      list-style: none;
+  }
+  
+  .custom-tabs ul {
+      padding-top: 0 !important;
+      margin-top: 0 !important;
+  }
+
+  body {
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    line-height: 26px;
+}
+
+body, .toggle h3 a, body .ui-widget, table, .bar_graph li span strong, #slide-out-widget-area .tagcloud a, body .container .woocommerce-message a.button, #search-results .result .title span, .woocommerce ul.products li.product h3, .woocommerce-page ul.products li.product h3, .row .col.section-title .nectar-love span, body .nectar-love span, body .nectar-social .nectar-love .nectar-love-count, body .carousel-heading h2, .sharing-default-minimal .nectar-social .social-text, body .sharing-default-minimal .nectar-love, .widget ul.nectar_widget[class*="nectar_blog_posts_"] > li .post-date, .single [data-post-hs="default_minimal"] #single-below-header span, .single .heading-title[data-header-style="default_minimal"] #single-below-header span {
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+ol, ul {
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.custom-tabs .tab-content.active {
+    display: grid !important;
+    grid-template-columns: repeat( auto-fit, minmax(170px, 1fr));
+}
+
+.custom-tabs .tab-content {
+    display: none;
+    background: transparent;
+    padding: 15px;
+}
+
+booking-form .x-col {
+    text-align: center;
+}
+
+.booking-form .x-col {
+    margin: 0;
+    padding: 0 1%;
+}
