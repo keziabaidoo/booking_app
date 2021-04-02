@@ -75,13 +75,13 @@
 element.style {
 }
 @media screen and (max-width: 979px){
-.booking-form .form-d i {
+.booking-form .form-row i {
     text-align: left;
     left: 0.8rem;
 }
 }
 
-.booking-form .form-d i {
+.booking-form .form-row i {
     position: absolute;
     left: 1.5rem;
     top: 0.6rem;
@@ -109,12 +109,13 @@ element.style {
       background: transparent;
       border: none;
   }
-  }
+  
   
   ul.booking-links {
       padding: 0;
       margin: 1rem 0 0 0.3rem;
   }
+}
   
   ul {
       list-style: none;
@@ -147,14 +148,14 @@ ol, ul {
     list-style-type: none;
 }
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+/* html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-}
+} */
 
 .custom-tabs .tab-content.active {
     display: grid !important;
@@ -167,11 +168,303 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 15px;
 }
 
-booking-form .x-col {
-    text-align: center;
-}
+
 
 .booking-form .x-col {
     margin: 0;
     padding: 0 1%;
+    text-align: center;
+
+}
+
+.booking-form select {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.booking-form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-left: 2.2rem;
+}
+
+.booking-form .selectf:after {
+    right: 1rem !important;
+}
+
+@media screen and (max-width: 480px){
+.booking-form .selectf:after {
+    position: absolute;
+    content: "";
+    top: 0.95rem;
+    right: 1rem;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #555555 transparent transparent transparent;
+}}
+.booking-form .selectf:after {
+    position: absolute;
+    content: "";
+    top: 0.95rem;
+    right: 1.8rem;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #555555 transparent transparent transparent;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+select {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    cursor: default;
+    font: 400 13.3333px Arial;
+}
+
+select {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #555;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 16%);
+    -webkit-box-shadow: 0 1px 2px rgb(0 0 0 / 16%);
+    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+optgroup {
+    font-weight: bolder;
+    display: block;
+}
+
+@media screen and (max-width: 979px){
+.booking-form .form-row i {
+    text-align: left;
+    /* left: 0.8rem; */
+}
+}
+
+.booking-form .form-row i {
+    position: absolute;
+    /* left: 1.5rem;
+    top: 10.6rem;
+    text-align: center; */
+}
+i[className*="fa-"], span[className*="fa-"] {
+    display: none;
+}
+
+ul.booking-links {
+    margin: 1rem 0 0 0;
+    margin-top: 1rem;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background: transparent;
+    border: none;
+    border-top-color: initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
+    border-left-color: initial;
+    border-left-style: none;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+.booking-form .selectf:after {
+    position: absolute;
+    content: "";
+    top: 0.95rem;
+    right: 1rem;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-top-color: rgb(85, 85, 85);
+    border-top-style: solid;
+    border-top-width: 6px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 6px;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 6px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 6px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-color: #555555 transparent transparent transparent;
+}
+
+.booking-form select {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.booking-form select {
+    /* -webkit-appearance: none;
+    -moz-appearance: none; */
+    appearance: none;
+    /* padding-left: 2.2rem; */
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    padding-top: 0px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+}
+
+.booking-form .selectf:after {
+    position: absolute;
+    content: "";
+    top: 0.95rem;
+    right: 1rem;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-top-color: rgb(85, 85, 85);
+    border-top-style: solid;
+    border-top-width: 6px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 6px;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 6px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 6px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-color: #555555 transparent transparent transparent;
+    border-top-color: rgb(85, 85, 85);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+.booking-form .x-col.x-1-4 {
+    width: 95 !important;
+    
+    margin-top: 15px;
+    position: relative;
+    
+}
+
+
+.custom-tabs ul {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+@media screen and (max-width: 480px){
+ul.booking-links {
+    margin: 1rem 0 0 0;
+    margin-top: 1rem;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background: transparent;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: transparent;
+    border: none;
+    border-top-color: initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
+    border-left-color: initial;
+    border-left-style: none;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    }}
+ul.booking-links {
+    padding: 0;
+    margin: 1rem 0 0 0.3rem;
+}
+ul, ol {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+ol, ul {
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
 }

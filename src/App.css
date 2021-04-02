@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.vc_row-fluid::before, .vc_row-fluid::after {
+  content: "";
+  display: table;
+}
+
+.vc_row:after, .vc_row:before {
+  content: " ";
+  display: table;
+}
